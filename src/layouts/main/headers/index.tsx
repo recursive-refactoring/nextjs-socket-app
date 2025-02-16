@@ -1,15 +1,16 @@
 import { CustomIconButton } from "@/components/buttons/custom-icon-buttons";
+import { FlexContainer } from "@/components/containers/flex-container";
 import { Search } from "@mui/icons-material";
 import { Box } from "@mui/material";
 
 export const Header = () => {
   return (
-    <Box>
+    <FlexContainer>
       <Box>
         <CustomIconButton>
           <Search />
         </CustomIconButton>
       </Box>
-    </Box>
+    </FlexContainer>
   );
 };
