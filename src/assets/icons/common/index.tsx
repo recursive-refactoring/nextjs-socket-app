@@ -1,0 +1,12 @@
+export { default as CommonEditIcon } from "./edit-icon";
+export { default as CommonKeyIcon } from "./key-icon";
+export { default as CommonFolderIcon } from "./folder-icon";
+export { default as CommonLogOutIcon } from "./log-out-icon";
+export { default as CommonCameraIcon } from "./camera-icon";
+export { default as CommonCloseIcon } from "./close-icon";
+export { default as CommonAddCircleIcon } from "./add-circle-icon";
+export { default as CommonNotificationIcon } from "./notification-icon";
+export { default as CommonEmailIcon } from "./email-icon";
+export { default as CommonMoreVertical } from "./more-vertical-icon";
+export { default as CommonArrowDownIcon } from "./arrow-down-icon";
+export { default as CommonUpDownIcon } from "./arrow-up-icon";
