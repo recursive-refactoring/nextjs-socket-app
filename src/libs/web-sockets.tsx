@@ -1,10 +1,11 @@
+import { BACKEND_BASE_URL } from "@/configs/env";
 import { io } from "socket.io-client";
 
 let socket: any = null;
 
 export const initSocket = () => {
   if (!socket) {
-    socket = io("https://your-socket-server.com", {
+    socket = io(BACKEND_BASE_URL, {
       autoConnect: false,
       reconnection: true,
       reconnectionAttempts: 5,
